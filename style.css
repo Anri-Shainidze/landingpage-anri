@@ -242,14 +242,6 @@ main {
   }
 
 
-
-
-
-
-.btn--menu[aria-expanded="true"] + .nav-links--main {
-  display: block;
-}
-
 @media (min-width: 768px){
   .btn--menu {
     display: none;
@@ -345,13 +337,6 @@ header .desktop-only {
 
 
 
-.phones-bkg .bkg {
-  position: absolute;
-  z-index: -1;
-  right: 0;
-  left: 0;
-  top: -20%;
-}
 
 @media (min-width: 768px) {
   .phones-bkg .bkg {
